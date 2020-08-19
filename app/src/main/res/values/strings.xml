@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PRM391x_QuizApp_hidayatmhyFX07085</string>
+
+    <string name="question_1">1. What is Deoxyribonucleic acid commonly referred to as?</string>
+    <string name="answer_1_a">RNA</string>
+    <string name="answer_1_b">CIA</string>
+    <string name="answer_1_c">DNA</string>
+    
+    <string name="question_2">What processes involves treating rubber with sulfur to harden it?</string>
+
+    <string name="question_3">Name two different organelles of a eukaryotic cell.</string>
+    <string name="answer_3_a">Ribosomes</string>
+    <string name="answer_3_b">Plasmids</string>
+    <string name="answer_3_c">Golgi apparatus</string>
+    <string name="answer_3_d">Diploid</string>
+
+    <string name="question_4">This word describes the force that pulls objects to the middle of the earth?</string>
+
+    <string name="question_5">What types of trees that yield the resin used to produce turpentine?</string>
+
+    <string name="question_6">Cummulus and Cirrus are types of what?</string>
+
+    <string name="question_7"></string>
+</resources>
