@@ -3,4 +3,5 @@
     <dimen name="mainPadding">12dp</dimen>
     <dimen name="topMargin_beetween_qna">18dp</dimen>
     <dimen name="editTextWidth">250dp</dimen>
+    <dimen name="logoTopMargin">150dp</dimen>
 </resources>

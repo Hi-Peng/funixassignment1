@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">PRM391x_QuizApp_hidayatmhyFX07085</string>
-
+    <string name="mynamehehe">M. Hilal Yahya Hidayat</string>
     <string name="question_1">1. What is Deoxyribonucleic acid commonly referred to as?</string>
     <string name="answer_1_a">RNA</string>
     <string name="answer_1_b">CIA</string>
     <string name="answer_1_c">DNA</string>
-    
+
     <string name="question_2">2. What processes involves treating rubber with sulfur to harden it?</string>
 
     <string name="question_3">3. Name two different organelles of a eukaryotic cell.</string>
@@ -36,4 +36,13 @@
     <string name="answer_9_b">Stalagmites</string>
 
     <string name="question_10">10. What process involves heating an ore to obtain metal?</string>
+
+    <string name="hintEditText">Enter your answer</string>
+
+    <string name="toastResult">Good Work, You Scored %1$d out 10</string>
+
+    <string name="submitButton">Submit Answer</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="@dimen/mainPadding"
     tools:context=".quizMain">
-
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="12dp">
+            android:padding="16dp"
+            android:paddingBottom="100dp">
             <TextView
                 android:id="@+id/question_1"
                 android:layout_width="wrap_content"
@@ -52,6 +47,9 @@
                 android:layout_below="@+id/answer_1"
                 android:text="@string/question_2" />
             <EditText
+                android:inputType="text"
+                android:autofillHints="@string/hintEditText"
+                android:hint="@string/hintEditText"
                 android:id="@+id/answer_2"
                 android:layout_below="@id/question_2"
                 android:layout_width="@dimen/editTextWidth"
@@ -102,6 +100,9 @@
                 android:layout_marginTop="@dimen/topMargin_beetween_qna"
                 android:text="@string/question_4"/>
             <EditText
+                android:inputType="text"
+                android:autofillHints="@string/hintEditText"
+                android:hint="@string/hintEditText"
                 android:id="@+id/answer_4"
                 android:layout_width="@dimen/editTextWidth"
                 android:layout_height="wrap_content"
@@ -144,6 +145,9 @@
                 android:layout_below="@id/answer_5"
                 android:text="@string/question_6"/>
             <EditText
+                android:inputType="text"
+                android:autofillHints="@string/hintEditText"
+                android:hint="@string/hintEditText"
                 android:id="@+id/answer_6"
                 android:layout_width="@dimen/editTextWidth"
                 android:layout_height="wrap_content"
@@ -194,6 +198,9 @@
                 android:layout_marginTop="@dimen/topMargin_beetween_qna"
                 android:text="@string/question_8"/>
             <EditText
+                android:inputType="text"
+                android:autofillHints="@string/hintEditText"
+                android:hint="@string/hintEditText"
                 android:id="@+id/answer_8"
                 android:layout_width="@dimen/editTextWidth"
                 android:layout_height="wrap_content"
@@ -231,16 +238,22 @@
                 android:layout_marginTop="@dimen/topMargin_beetween_qna"
                 android:text="@string/question_10"/>
             <EditText
+                android:inputType="text"
+                android:autofillHints="@string/hintEditText"
+                android:hint="@string/hintEditText"
                 android:id="@+id/answer_10"
                 android:layout_width="@dimen/editTextWidth"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/question_10"/>
+                android:layout_below="@id/question_10"
+                />
 
-
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/topMargin_beetween_qna"
+                android:layout_below="@id/answer_10"
+                android:padding="5dp"
+                android:text="@string/submitButton"/>
         </RelativeLayout>
-    </ScrollView>
-
-
-
-
-</LinearLayout>
+</ScrollView>
